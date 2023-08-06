@@ -71,6 +71,9 @@ section.secondary {
   aspect-ratio: 16 / 12;
 }
 
+.instagram-embeds {
+  margin: 50px 0;
+}
 .card-header.grid {
   grid-gap: 0;
 }
