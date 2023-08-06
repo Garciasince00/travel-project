@@ -66,6 +66,15 @@ section.secondary {
   text-align: center;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 16 / 12;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../image/Oaxaca.jpg");
@@ -219,5 +228,13 @@ footer li {
   }
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
